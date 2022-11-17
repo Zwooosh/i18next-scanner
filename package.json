@@ -16,7 +16,6 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "prepare": "npm build",
     "prepublishOnly": "npm run eslint && npm run build && npm test",
     "build": "babel ./src --out-dir ./lib",
     "clean": "del lib .nyc_output",
